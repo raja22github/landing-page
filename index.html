@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#" class="logo"><img src="images/logo.png" alt=""></a>
+            <ul>
+                <li><img src="images/home.png" alt=""><a href="#">Home</a></li>
+                <li><img src="images/badge.png" alt=""><a href="#features">Features</a></li>
+                <li><img src="images/review.png" alt=""><a href="#testimonials">Testimonials</a></li>
+                <li><img src="images/mobile.png" alt=""><a href="#contact">Contact</a></li>
+            </ul>
+            <img class="menu" src="images/menu.png" alt="menu-icon" id="menu_icon" onclick="openNav()">
+            <img src="images/close.png" alt="close-icon" id="close_icon" class="close" onclick="closeNav()">
+        </nav>
+    </header>
+    <section id="hero">
+        <h1>Experience Shopping at Its Peak</h1>
+        <p>At ZenithCart, we bring you a seamless, smart, and satisfying shopping experience. Discover top-quality products, unbeatable deals, and fast delivery — all in one place. Elevate your everyday shopping to the next level.</p>
+        <button>Shop Now</button>
+    </section>
+    <section id="features">
+        <h2>Explore Our Top Picks</h2>
+        <p>From everyday essentials to premium finds, ZenithCart offers a wide range of high-quality products to fit your lifestyle. Browse our latest collections and discover what makes us your go-to shopping destination.</p>
+        <div class="features-container">
+            <div class="box">
+                <img src="images/feature1.jpg" alt="feature1" >
+                <h3>GlowMist Hydrating Cream</h3>
+                <p>A lightweight, deeply moisturizing formula enriched with hyaluronic acid and aloe vera. Perfect for daily hydration and a radiant, dewy glow.</p>
+            </div>
+            <div class="box">
+                <img src="images/feature2.jpg" alt="feature2" >
+                <h3>PureSilk Night Repair</h3>
+                <p>An overnight cream infused with retinol and peptides to help reduce fine lines, restore elasticity, and rejuvenate tired skin while you sleep.</p>
+            </div>
+            <div class="box">
+                <img src="images/feature3.jpg" alt="feature3" >
+                <h3>LumiShield Day Cream SPF 30</h3>
+                <p>A non-greasy, protective day cream with broad-spectrum SPF 30, vitamin C, and green tea extract — designed to brighten and defend against daily sun damage.</p>
+            </div>
+            <div class="box">
+                <img src="images/feature4.avif" alt="feature4" >
+                <h3>VelvetBloom Brightening Cream</h3>
+                <p>A gentle brightening cream powered by niacinamide and rosehip oil to even out skin tone and reduce dark spots for visibly smoother, luminous skin.</p>
+            </div>
+            
+        </div>
+    </section>
+
+    <section id="testimonials">
+        <h2>What Our Customers Are Saying</h2>
+        <p>Real experiences from real shoppers. See why thousands trust ZenithCart for quality, convenience, and unbeatable service. Your satisfaction is our success.</p>
+        <div class="testimonials-container">
+            <div class="box">
+                <img src="images/testimonial1.jpg" alt="testimonial1" >
+               <div>
+                    <h3>Testimonial 1</h3>
+                    <p>Testimonial 1 content goes here.</p>
+               </div>
+            </div>
+            <div class="box">
+                <img src="images/testimonial2.jpg" alt="testimonial2" >
+                <div>
+                    <h3>Testimonial 1</h3>
+                    <p>Testimonial 1 content goes here.</p>
+               </div>
+            </div>
+            <div class="box">
+                <img src="images/testimonial3.jpg" alt="testimonial3" >
+                <div>
+                    <h3>Testimonial 1</h3>
+                    <p>Testimonial 1 content goes here.</p>
+               </div>
+            </div>
+            <div class="box">
+                <img src="images/testimonial4.jpg" alt="testimonial4" >
+                <div>
+                    <h3>Testimonial 1</h3>
+                    <p>Testimonial 1 content goes here.</p>
+               </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Get in Touch with Us</h2>
+        <p>Have a question, need help with an order, or just want to say hello? Our support team is here to assist you. Reach out anytime — we’d love to hear from you!.</p>
+        <form>
+            <div>
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email">
+                <textarea placeholder="Message" rows="10"></textarea>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer id="footer">
+        <div class="footer-container">
+            <div class="footer-box">
+                <div class="logo-wrapper">
+                    <img src="images/logo.png" alt="logo">
+                    <h3>ZenithCart</h3>
+                </div>
+                <p>ZenithCart is your one-stop destination for quality products, unbeatable prices, and a seamless online shopping experience. We’re committed to delivering excellence and making everyday shopping smarter, faster, and more enjoyable.</p>
+            </div>
+            <div class="footer-box">
+                <h3>Important links</h3>
+                <ul>
+                    <li><img src="images/home.png" alt=""><a href="#">Home</a></li>
+                    <li><img src="images/badge.png" alt=""><a href="#features">Features</a></li>
+                    <li><img src="images/review.png" alt=""><a href="#testimonials">Testimonials</a></li>
+                    <li><img src="images/mobile.png" alt=""><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-box">
+                <h3>Social Media</h3>
+                <ul>
+                    <li><img src="images/facebook.png" alt=""><a href="#">Facebook</a></li>
+                    <li><img src="images/twitter.png" alt=""><a href="#">TwitterX</a></li>
+                    <li><img src="images/instagram.png" alt=""><a href="#">Instagram</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <p class="copyright">&copy; 2025 ZenithCart. All rights reserved.</p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
